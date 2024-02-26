@@ -333,7 +333,7 @@ p#description {
     {
         content: '';
         position: absolute;
-        width:0;
+        
         background-color:black;
         transition: all 0.3s linear;
       
