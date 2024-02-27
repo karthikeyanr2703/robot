@@ -28,7 +28,10 @@ const audioFiles = [
     "Yethi-Yethi.mp3",
     "Naa-Ready-MassTamilan.dev.mp3",
     "Damaku-Damaku.mp3",
-    "Aathangara-Orathil.mp3"
+    "Aathangara-Orathil.mp3",
+    "badass.mp3",
+    "arjan.mp3",
+    "missing.mp3",
 
   ];
   
