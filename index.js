@@ -20,9 +20,9 @@ function playSound(){
     
 }
 playSound();
-// Array of MP3 audio files
+// Array of MP3 audio files for entertainment purposes
 const audioFiles = [
-  "vikram.mp3",
+  "vikram.mp3",     
   "loki.mp3",
   "bh.mp3",
   "master.mp3",
