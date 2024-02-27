@@ -22,6 +22,11 @@ function playSound(){
 playSound();
 // Array of MP3 audio files
 const audioFiles = [
+  "vikram.mp3",
+  "loki.mp3",
+  "bh.mp3",
+  "master.mp3",
+     "Katchi.mp3",
     "Maamadura-Annakodi.mp3",
     "Rakita-Rakita.mp3",
     "Mallipoo-Vachi-Vachi.mp3",
