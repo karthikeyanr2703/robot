@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="shortcut icon" href="robot.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="nav">
+        <audio src="" id="audioPlayer" ></audio>
+       <div id="start">
+        <i class="ri-arrow-left-fill"></i>
+       </div>
+        <div id="end">
+            <i class="ri-music-2-fill" id="music" onclick="playAudios()"></i>
+              <div class="playPause" onclick="pauseResumeAudio()"> <i class="ri-pause-circle-fill" id="pause"></i>/<i class="ri-play-fill"></i></div>
+        <i class="ri-skip-right-fill" onclick="playNext()"></i>
+        </div>
+    </div>
     <div id="main">
         <audio  src="./robot.mp3" id="myAudio" ></audio>
         <div id="container">
