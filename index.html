@@ -13,13 +13,14 @@
 </head>
 <body>
     <div id="nav">
+        <!-- <i class="ri-pause-circle-fill"></i> -->
         <audio src="" id="audioPlayer" ></audio>
        <div id="start">
         <i class="ri-arrow-left-fill"></i>
        </div>
         <div id="end">
             <i class="ri-music-2-fill" id="music" onclick="playAudios()"></i>
-              <div class="playPause" onclick="pauseResumeAudio()"> <i class="ri-pause-circle-fill" id="pause"></i>/<i class="ri-play-fill"></i></div>
+              <i class="ri-pause-fill" id="icon" onclick="pauseResumeAudio()"></i>
         <i class="ri-skip-right-fill" onclick="playNext()"></i>
         </div>
     </div>

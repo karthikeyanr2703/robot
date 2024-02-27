@@ -1,5 +1,6 @@
 let myAudio = document.getElementById("myAudio");
 let audio = document.getElementById("audio");
+let icon = document.getElementById('icon'); 
 
 document.addEventListener('DOMContentLoaded', function() {
     const button1 = document.getElementById('button1');
@@ -41,14 +42,20 @@ const audioFiles = [
   }
   
   function pauseResumeAudio() {
+    
+    
+
     if (audioPlayer.paused) {
-      // If audio is paused, resume it
-      audioPlayer.play();
+        // If audio is paused, resume it
+        audioPlayer.play();
+        icon.className = 'ri-pause-fill';
+        
     } else {
-      // If audio is playing, pause it
-      audioPlayer.pause();
+        // If audio is playing, pause it
+        audioPlayer.pause();
+        icon.className = 'ri-play-fill';
     }
-  }
+}
   
   function playNext() {
     // Move to the next audio file
