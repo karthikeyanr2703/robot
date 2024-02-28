@@ -20,23 +20,27 @@ function playSound() {
 playSound();
 // Array of MP3 audio files for entertainment purposes
 const audioFiles = [
+  
+  "./ran.mp3",
+  "./bgm.mp3",
   "master.mp3",
   "./ram.mp3",
   "./jamal.mp3",
+  "./pablo.mp3",
+  "./petta.mp3",
   "./heart.mp3",
-
   "./marana.mp3",
   "vikram.mp3",
   "./night.mp3",
+  "./jithu.mp3",
+  "./jithu.mp3",
   "./cham.mp3",
-
   "loki.mp3",
   "Bh.mp3",
   "./go.mp3",
   "arjan.mp3",
   "./ramu.mp3",
   "./dip.mp3",
-
   "Katchi.mp3",
   "Maamadura-Annakodi.mp3",
   "./ur.mp3",
@@ -48,8 +52,7 @@ const audioFiles = [
   "Damaku-Damaku.mp3",
   "Aathangara-Orathil.mp3",
   "badass.mp3",
-
-  "missing.mp3",
+"missing.mp3",
 ];
 
 let currentAudioIndex = 0;
